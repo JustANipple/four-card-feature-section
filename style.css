@@ -1,0 +1,47 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* Custom properties */
+:root {
+    --primary-red-clr: hsl(0, 78%, 62%);
+    --primary-cyan-clr: hsl(180, 62%, 55%);
+    --primary-orange-clr: hsl(34, 97%, 64%);
+    --primary-blue-clr: hsl(212, 86%, 64%);
+
+    --neutral-very-dark-blue-clr: hsl(234, 12%, 34%);
+    --neutral-grayish-blue-clr: hsl(229, 6%, 66%);
+    --neutral-very-light-gray: hsl(0, 0%, 98%);
+
+    --main-ff: 'Poppins', sans-serif;
+
+    --body-fs: 15px;
+
+    --extraLight-fw: 200;
+    --regular-fw: 400;
+    --semiBold-fw: 600;
+}
