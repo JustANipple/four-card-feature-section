@@ -45,3 +45,50 @@ p, h1, h2, h3, h4, h5, h6 {
     --regular-fw: 400;
     --semiBold-fw: 600;
 }
+
+/* Styles */
+
+body {
+    font-size: var(--body-fs);
+    font-family: var(--main-ff);
+    background-color: var(--neutral-very-light-gray);
+}
+
+.container {
+    margin: 2rem;
+}
+
+.header {
+    margin: 5.5rem 0;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.appendix {
+    font-size: 1.5rem;
+    color: var(--neutral-very-dark-blue-clr);
+}
+
+.description {
+    color: var(--neutral-grayish-blue-clr);
+    margin: 1rem 0;
+}
+
+.tool {
+    background-color: white ;
+    margin: 2rem 0;
+    box-shadow: 0px 10px 40px -15px var(--neutral-grayish-blue-clr), inset 0px 4px var(--primary-cyan-clr);
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.toolDescription {
+    padding: 1rem 0;
+}
+
+.toolImg {
+    margin-left: auto;
+}
