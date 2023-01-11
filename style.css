@@ -60,7 +60,8 @@ body {
 }
 
 .header {
-    margin: 5.2rem 0;
+    margin: 5rem 0;
+    text-align: center;
 }
 
 .title {
@@ -75,7 +76,7 @@ body {
 
 .description {
     color: var(--neutral-grayish-blue-clr);
-    margin: 0.5rem 0;
+    margin: 1rem 0;
     line-height: 1.6rem;
 }
 
@@ -122,4 +123,41 @@ body {
 .toolImg {
     margin-left: auto;
     width: 3.5rem;
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+
+  .gridBlock {
+    display: grid;
+    grid-template-areas: 
+    "one two four"
+    "one three four";
+    max-width: 1100px;
+  }
+
+  .one {
+    grid-area: one;
+    margin: auto 2rem;
+  }
+
+  .two {
+    grid-area: two;
+  }
+
+  .three {
+    grid-area: three;
+  }
+
+  .four {
+    grid-area: four;
+    margin: auto 2rem;
+  }
+
+  .toolImg {
+    width: 4rem;
+  }
 }
