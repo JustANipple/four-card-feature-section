@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://github.com/JustANipple/four-card-feature-section/blob/master/style.css)
-- Live Site URL: [Add live site URL here](https://justanipple.github.io/four-card-feature-section/)
+- Live Site URL: [Live site](https://justanipple.github.io/four-card-feature-section/)
 
 ## My process
 
