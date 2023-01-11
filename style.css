@@ -52,26 +52,30 @@ body {
     font-size: var(--body-fs);
     font-family: var(--main-ff);
     background-color: var(--neutral-very-light-gray);
-    min-height: 1300px;
 }
 
 .container {
     margin: 2rem;
+    padding: 3rem 0;
 }
 
 .header {
-    margin: 5rem 0;
+    margin: 0 auto 5rem auto;
     text-align: center;
+    max-width: 500px;
 }
 
 .title {
-    font-size: 1.5rem;
     font-weight: 200;
 }
 
 .appendix {
-    font-size: 1.5rem;
     color: var(--neutral-very-dark-blue-clr);
+}
+
+.title,
+.appendix {
+  font-size: 1.5rem;
 }
 
 .description {
@@ -125,10 +129,15 @@ body {
     width: 3.5rem;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
   body {
     display: flex;
     justify-content: center;
+  }
+
+  .title,
+  .appendix {
+  font-size: 2.3rem;
   }
 
   .gridBlock {
@@ -136,7 +145,7 @@ body {
     grid-template-areas: 
     "one two four"
     "one three four";
-    max-width: 1100px;
+    max-width: 1200px;
   }
 
   .one {
@@ -146,15 +155,26 @@ body {
 
   .two {
     grid-area: two;
+    margin-bottom: 1rem;
   }
 
   .three {
     grid-area: three;
+    margin-top: 1rem;
   }
 
   .four {
     grid-area: four;
     margin: auto 2rem;
+  }
+
+  .toolBox {
+    padding: 2rem;
+    color: var(--neutral-very-dark-blue-clr);
+  }
+
+  .toolDescription {
+    margin-bottom: 2.4rem;
   }
 
   .toolImg {
