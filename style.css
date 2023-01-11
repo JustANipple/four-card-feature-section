@@ -52,6 +52,7 @@ body {
     font-size: var(--body-fs);
     font-family: var(--main-ff);
     background-color: var(--neutral-very-light-gray);
+    min-height: 1300px;
 }
 
 .container {
@@ -59,7 +60,7 @@ body {
 }
 
 .header {
-    margin: 5.5rem 0;
+    margin: 5.2rem 0;
 }
 
 .title {
@@ -74,21 +75,51 @@ body {
 
 .description {
     color: var(--neutral-grayish-blue-clr);
-    margin: 1rem 0;
+    margin: 0.5rem 0;
+    line-height: 1.6rem;
 }
 
 .tool {
     background-color: white ;
     margin: 2rem 0;
-    box-shadow: 0px 10px 40px -15px var(--neutral-grayish-blue-clr), inset 0px 4px var(--primary-cyan-clr);
-    padding: 2rem;
+    box-shadow: 0px 10px 40px -15px var(--neutral-grayish-blue-clr);
     border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.one .topBorder {
+  border: 2px solid var(--primary-cyan-clr);
+}
+
+.two .topBorder {
+  border: 2px solid var(--primary-red-clr);
+}
+
+.three .topBorder {
+  border: 2px solid var(--primary-orange-clr);
+}
+
+.four .topBorder {
+  border: 2px solid var(--primary-blue-clr);
+}
+
+.toolBox {
+  padding: 1.5rem 2rem;
+  color: var(--neutral-very-dark-blue-clr);
+}
+
+.toolType {
+  font-size: 1.2rem;
 }
 
 .toolDescription {
-    padding: 1rem 0;
+    font-size: 0.8rem;
+    color: var(--neutral-grayish-blue-clr);
+    margin: 0.3rem 0 1.8rem 0;
+    line-height: 1.5rem;
 }
 
 .toolImg {
     margin-left: auto;
+    width: 3.5rem;
 }
