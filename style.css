@@ -137,6 +137,7 @@ body {
 
   .header {
     margin-bottom: 2rem;
+    color: var(--neutral-grayish-blue-clr)
   }
 
   .title,
